@@ -167,6 +167,33 @@ public class ViewEmployeePage extends JFrame {
                 String pagibig = pagibigField.getText();
                 String address = addressField.getText();
 
+                // Validate numeric fields
+                if (!isNumeric(empNumber)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for Employee #.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                if (!isNumeric(phoneNumber)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for Phone Number.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                if (!isNumeric(sss)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for SSS#.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                if (!isNumeric(philhealth)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for Philhealth #.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                if (!isNumeric(tin)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for TIN #.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                if (!isNumeric(pagibig)) {
+                    JOptionPane.showMessageDialog(addEmployeeDialog, "Please enter numerical values only for Pag-ibig #.", "Error", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+                
+                
                 // Add a new row to the table
                 DefaultTableModel model = (DefaultTableModel) employeeTable.getModel();
                 model.addRow(new Object[]{empNumber, lastName, firstName, birthday, phoneNumber, sss, philhealth, tin, pagibig, address});
@@ -183,6 +210,14 @@ public class ViewEmployeePage extends JFrame {
         addEmployeeDialog.add(dialogPanel);
         addEmployeeDialog.setVisible(true);
     }
+    
+    
+ // Method to check if a string is numeric
+    private boolean isNumeric(String str) {
+        return str.matches("-?\\d+(\\.\\d+)?"); // This will return true if str is numeric
+    }
+
+    
 
     private void updateEmployee() {
         int selectedRow = employeeTable.getSelectedRow();
