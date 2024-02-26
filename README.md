@@ -3,5 +3,13 @@ IT103 - Computer Programming 2 - Group 1
 
 (This is where we submit our Tasks/Homeworks/Milestones)
 
+Logs:
+
 Milestone #1 - Simple GUI with features like Calendar, View Employee Records, leave Record and User Authentication 
-              (Make sure the path for CSV is right for the User authentication to work) Still W.I.P but main features are completely working.
+              (adjust the path for CSV is right for the User authentication to work)  <---- working on this, to make it integrated
+
+Milestone #2 - Maded Changes to the UI/GUI to make it more visually appealing and also user friendly, also added more features 
+                to the functionalities of the Employee App. Will make changes to the UI again...
+
+Terminal Assessment - TBC
+              
