@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\PC\Downloads\MotorPH Employee App\bin\Source.jar</jar>
+  <outfile>C:\Users\PC\Downloads\MotorPH Employee App\MotorPH.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\PC\Downloads\MotorPH Employee App\MotorPH.ico</icon>
+  <jre>
+    <path>C:\Program Files\Java\jdk-19</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <splash>
+    <file>C:\Users\PC\Downloads\MotorPH Employee App\splash.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+</launch4jConfig>
