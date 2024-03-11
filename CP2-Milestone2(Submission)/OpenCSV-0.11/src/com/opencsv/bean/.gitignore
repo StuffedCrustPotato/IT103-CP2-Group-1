@@ -1,0 +1,16 @@
+/AbstractCSVToBean.class
+/BeanField.class
+/BeanToCsv.class
+/ColumnPositionMappingStrategy.class
+/CsvBind.class
+/CsvBindByName.class
+/CsvBindByPosition.class
+/CsvDate.class
+/CsvToBean.class
+/CsvToBeanFilter.class
+/HeaderColumnNameMappingStrategy.class
+/HeaderColumnNameTranslateMappingStrategy.class
+/IterableCSVToBean.class
+/IterableCSVToBeanBuilder.class
+/MappingStrategy.class
+/package-info.class

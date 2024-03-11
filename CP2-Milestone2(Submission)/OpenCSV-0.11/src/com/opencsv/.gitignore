@@ -1,0 +1,12 @@
+/CSVIterator.class
+/CSVParser.class
+/CSVParserBuilder.class
+/CSVReader.class
+/CSVReaderBuilder.class
+/CSVWriter.class
+/FileBuffer.class
+/ResultSetHelper.class
+/ResultSetHelperService$Row.class
+/ResultSetHelperService.class
+/RowCallback.class
+/SQLWriter.class
