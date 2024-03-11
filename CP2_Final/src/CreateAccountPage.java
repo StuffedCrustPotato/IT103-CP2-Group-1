@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 import java.util.Arrays;
 import java.util.List;
 
+@SuppressWarnings("serial")
 public class CreateAccountPage extends JFrame {
     private JTextField usernameField;
     private JPasswordField passwordField;
@@ -113,7 +114,7 @@ public class CreateAccountPage extends JFrame {
     }
 
     private void createAccount() {
-        String username = usernameField.getText().trim(); // Trim leading and trailing whitespace
+        String username = usernameField.getText().trim(); 
         char[] password = passwordField.getPassword();
         char[] confirmPassword = confirmPasswordField.getPassword();
 
@@ -143,17 +144,17 @@ public class CreateAccountPage extends JFrame {
             }
         }
 
-        // Add new account
+        // Here is the Add new account 
         String[] newAccount = {username, passwordString};
         authorizedAccounts.add(newAccount);
         CSVReaderWriter.writeAuthorizedAccounts(authorizedAccounts);
 
         JOptionPane.showMessageDialog(this, "Account created successfully!");
         
-        // Close the current window
+        // Close the current window (ez)
         dispose();
         
-        // Show the login page again
+        // Show the login page again of courese lol
         LoginPage loginPage = new LoginPage();
         loginPage.setVisible(true);
     }

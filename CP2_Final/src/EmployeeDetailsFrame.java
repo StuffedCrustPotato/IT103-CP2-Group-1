@@ -3,12 +3,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+@SuppressWarnings("serial")
 public class EmployeeDetailsFrame extends JFrame {
     private JComboBox<String> monthComboBox;
     private JButton computeButton;
     private JTextArea detailsTextArea;
 
-    private String[] employeeDetails;
+    @SuppressWarnings("unused")
+	private String[] employeeDetails;
 
     public EmployeeDetailsFrame(String[] employeeDetails) {
         this.employeeDetails = employeeDetails;

@@ -6,8 +6,8 @@ import java.util.List;
 
 public class CSVReaderWriter {
 
-    private static final String AUTHORIZED_ACCOUNTS_FILE_PATH = "C:\\Users\\PC\\CSV\\authorized_accounts.csv";
-    private static final String EMPLOYEES_FILE_PATH = "C:\\Users\\PC\\CSV\\employees.csv";
+    private static final String AUTHORIZED_ACCOUNTS_FILE_PATH = "authorized_accounts.csv";
+    private static final String EMPLOYEES_FILE_PATH = "employees.csv";
 
     public static List<String[]> readAuthorizedAccounts() {
         return readData(AUTHORIZED_ACCOUNTS_FILE_PATH);

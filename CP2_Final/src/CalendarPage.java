@@ -1,4 +1,5 @@
 import com.toedter.calendar.JCalendar;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -7,11 +8,12 @@ import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+@SuppressWarnings("serial")
 public class CalendarPage extends JPanel {
     private JTextArea eventTextArea;
-    private static final Color BLUE_MEDIUM_DARK = new Color(49, 106, 196);
-    private static final Color GRAY_LIGHT = new Color(230, 230, 230);
-    private static final Font EVENT_FONT = new Font("Arial", Font.PLAIN, 16); // Increased font size for dates
+    private static final Color GRAY_LIGHT = new Color(245, 245, 245); // Light gray background color
+    private static final Color TEXT_COLOR = Color.BLACK; // Text color
+    private static final Font EVENT_FONT = new Font("Arial", Font.PLAIN, 16); // Font for event text
 
     public CalendarPage() {
         setLayout(new BorderLayout());
@@ -20,14 +22,15 @@ public class CalendarPage extends JPanel {
         // JCalendar from the JCalendar library
         JCalendar calendar = new JCalendar();
         calendar.setBorder(new EmptyBorder(10, 10, 10, 10));
-        calendar.setDecorationBackgroundColor(Color.WHITE);
+        calendar.setBackground(Color.WHITE);
 
         // Adjust calendar size
-        calendar.setPreferredSize(new Dimension(300, 300)); // Smaller size
+        calendar.setPreferredSize(new Dimension(300, 300)); // Set size
 
         eventTextArea = new JTextArea();
         eventTextArea.setEditable(false);
         eventTextArea.setFont(EVENT_FONT);
+        eventTextArea.setForeground(TEXT_COLOR); // Set text color
         JScrollPane eventScrollPane = new JScrollPane(eventTextArea);
         eventScrollPane.setBorder(new EmptyBorder(10, 10, 10, 10));
 
@@ -59,18 +62,21 @@ public class CalendarPage extends JPanel {
         controlPanel.setBackground(GRAY_LIGHT);
         controlPanel.add(buttonPanel, BorderLayout.CENTER);
 
-        add(calendar, BorderLayout.WEST);
-        add(eventPanel, BorderLayout.CENTER);
+        JSplitPane splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, calendar, eventPanel);
+        splitPane.setDividerLocation(300); // Set initial divider location
+
+        add(splitPane, BorderLayout.CENTER);
         add(controlPanel, BorderLayout.SOUTH);
     }
 
     private JButton createButton(String text) {
         JButton button = new JButton(text);
         button.setFont(new Font("Arial", Font.BOLD, 14));
-        button.setBackground(BLUE_MEDIUM_DARK);
+        button.setBackground(Color.DARK_GRAY);
         button.setForeground(Color.WHITE);
         button.setFocusPainted(false);
         button.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        button.setPreferredSize(new Dimension(120, 40)); // Set preferred size
         return button;
     }
 

@@ -13,9 +13,11 @@ public class CSVTableModelUtils {
         return tableModel;
     }
 
-    public static List<String[]> getDataVector(TableModel model) {
+    @SuppressWarnings("unchecked")
+	public static List<String[]> getDataVector(TableModel model) {
         List<String[]> data = new ArrayList<>();
-        Vector<Vector> vectorData = ((DefaultTableModel) model).getDataVector();
+        @SuppressWarnings("rawtypes")
+		Vector<Vector> vectorData = ((DefaultTableModel) model).getDataVector();
 
         for (Vector<Object> vectorRow : vectorData) {
             String[] rowData = new String[vectorRow.size()];
