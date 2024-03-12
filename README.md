@@ -1,6 +1,6 @@
 ### Hi there 👋, We are Group 1
 #### (This is where we submit our Tasks/Home works/Milestones)
-![(This is where we submit our Tasks/Home works/Milestones)](https://private-user-images.githubusercontent.com/125250527/311802166-e38d536c-37ad-4854-820c-ce5da5ce5201.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTAxNzc4ODUsIm5iZiI6MTcxMDE3NzU4NSwicGF0aCI6Ii8xMjUyNTA1MjcvMzExODAyMTY2LWUzOGQ1MzZjLTM3YWQtNDg1NC04MjBjLWNlNWRhNWNlNTIwMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMxMVQxNzE5NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MmZlNGI3MzhkMmE5MjAxNTkzOGZjNDIyYzAzMmQzYjk0Y2UxODg4ODllMzE0NzU0N2YxM2JlMTEyMmI5OWViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.N7JxhZCOJ_9Mp6intylc6T1EPk-4AYTAYQwIoGko4jI)
+![glTpZvNqG0LY_1280_500](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/f182361c-7270-4557-9827-356921a6bea1)
 
 IT103 - Computer Programming 2 - H2102
 
