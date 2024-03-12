@@ -91,7 +91,7 @@ You are now inside the app! you can test every feature that we have made, Thank 
 
 <H4> 7. Manual Import </H4><br />
 
-for a detailed tutorial you can go here: [link here!] (https://www.instructables.com/How-to-Import-Java-Projects-Into-Eclipse-for-Begin/) or this video [video link] (https://www.youtube.com/watch?v=kguK7xFq6sA)
+for a detailed tutorial you can go here: [link here!](https://www.instructables.com/How-to-Import-Java-Projects-Into-Eclipse-for-Begin/) or this video [video link](https://www.youtube.com/watch?v=kguK7xFq6sA)
 
 <H4> 8. Use this folder </H4><br />
 
