@@ -26,14 +26,14 @@ IT103 - Computer Programming 2 - H2102
 <h1>Testing Tutorial</h1>
 
 <H4> 1. Download from Repository </H4>
- Either download zip File or use another way to download a specific folder that you need on our repository. We recommend you download the MotorPH Employee App where you can easily access it with Exe <br />
+ Either download zip File or use another way to download a specific folder that you need on our repository. We recommend you download the MotorPH Employee App where you can easily access it with Exe. <br />
 
 ![Step 1](https://github.com/esphome/esphome/assets/125250527/7bc47743-50d4-495f-8608-a9f7162a2c1f)
 
 
 
 <H4> 2. Unzip & Open the Folder </H4>
-Once download is finish, unzip the file and open the folder where you can see what was on our repository <br />
+Once download is finish, unzip the file and open the folder where you can see what was on our repository. <br />
 
 
 ![Folder](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/6e3dd13f-757d-49ae-ad00-f15ba05ff350)
@@ -41,7 +41,7 @@ Once download is finish, unzip the file and open the folder where you can see wh
 
 
 <H4> 3. Go to MotorPH Employee App Folder </H4>
-Inside it, there are multiple folders from our repository, instead of adding the files to your IDE we have made you an easy way to access our app (we recommend you to do this instead) <br />
+Inside it, there are multiple folders from our repository, instead of adding the files to your IDE we have made you an easy way to access our app. (we recommend you to do this instead) <br />
 
 ![App](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/98d4d6ad-93df-4b4d-9f2e-81c13ece6d1b)
 
@@ -57,7 +57,7 @@ or instead do this to run it by using a java runnable executable <br />
 
 
 <H4> 5. Login Screen </H4><br />
-Once download is finish, unzip the file and open the folder where you can see what was on our repository <br />
+Once download is finish, unzip the file and open the folder where you can see what was on our repository. <br />
 
 | Username  | Passwords |
 | --------- | --------- |
@@ -74,7 +74,7 @@ Once download is finish, unzip the file and open the folder where you can see wh
 
 
 <H4> 5. Create an account </H4><br />
-You can create your own Account by pressing the **create account** button, We recommend you make your own for a great and personal experience! <br />
+You can create your own Account by pressing the "create account" button, We recommend you make your own for a great and personal experience! <br />
 
 ![Create](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/c0dad647-87c2-4fd8-85f1-a6935f4a60b4)
 
