@@ -99,3 +99,4 @@ This is our final code, the other folders are beta version or older versions of 
 
 ![image](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/20a1347e-d103-4d4a-bc89-127bf1c8307d)
 
+![image](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/caa1d2bd-7fc7-4e3d-8c55-a827b210ac0c)
