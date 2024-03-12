@@ -26,11 +26,13 @@ IT103 - Computer Programming 2 - H2102
 <h1>Testing Tutorial</h1>
 
 <H4> 1. Download from Repository </H4>
- Either download zip File or use another way to download a specific folder that you need on our repository. We recommend you download the MotorPH Employee App where you can easily access it with Exe. <br />
+ Either download zip File of the whole repository, which includes all the previous versions and the java code for the employee application.  <br />
 
 ![Step 1](https://github.com/esphome/esphome/assets/125250527/7bc47743-50d4-495f-8608-a9f7162a2c1f)
 
+or Download here which is on the right side of the repository to specifically download the exe/app 7z file.
 
+![image](https://github.com/StuffedCrustPotato/IT103-CP2-Group-1/assets/125250527/ebf8ae1b-af65-428c-a827-af78f60d6fc5)
 
 <H4> 2. Unzip & Open the Folder </H4>
 Once download is finish, unzip the file and open the folder where you can see what was on our repository. <br />
